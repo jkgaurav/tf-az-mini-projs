@@ -83,4 +83,4 @@ terraform destroy
 
 ---
 
-Let's move on to the next mini-project!
+Let's move on to the next [mini-project](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-2/problem.md)!
