@@ -1,6 +1,6 @@
 ### **Step-by-Step Solution:**
 
-#### 1. **main.tf** – Defining Azure Resource Group and Storage Account
+#### 1. **main.tf**[https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-1/terraform-azure-storage/main.tf] – Defining Azure Resource Group and Storage Account
 
 #### 2. **variables.tf** – Defining Input Variables
 
@@ -60,7 +60,7 @@
    You can also verify that the storage account has been created by navigating to the Azure Portal or using the Azure CLI:
 
    ```bash
-   az storage account show --name storagedemotf --resource-group rg-terraform-demo
+   az storage account show --name gkstoragedemotf --resource-group rg-terraform-demo
    ```
 
 ---
