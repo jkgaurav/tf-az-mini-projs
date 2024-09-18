@@ -27,5 +27,3 @@ Now that you've successfully deployed a simple storage account, your next task i
    - `main.tf`: Contains resource definitions for the VNet and subnet.
    - `variables.tf`: Defines variables for custom inputs like VNet name, address space, and subnet name.
    - `outputs.tf`: Displays the output values like VNet ID and Subnet ID.
-
----
