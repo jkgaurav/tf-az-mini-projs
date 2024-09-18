@@ -1,10 +1,10 @@
 ### **Step-by-Step Solution:**
 
-#### 1. **main.tf**[https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-1/terraform-azure-storage/main.tf] – Defining Azure Resource Group and Storage Account
+#### 1. **[main.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-1/terraform-azure-storage/main.tf)** – Defining Azure Resource Group and Storage Account
 
-#### 2. **variables.tf** – Defining Input Variables
+#### 2. **[variables.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-1/terraform-azure-storage/variables.tf)** – Defining Input Variables
 
-#### 3. **outputs.tf** – Defining Outputs
+#### 3. **[outputs.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-1/terraform-azure-storage/outputs.tf)** – Defining Outputs
 
 ---
 
