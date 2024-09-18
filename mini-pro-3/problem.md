@@ -14,3 +14,7 @@ In this project, you’ll learn how to provision an Azure Virtual Machine (VM) i
 2-3 hours
 
 ---
+
+### **Approach:**
+
+You’ll extend the infrastructure you created in the last project, reusing the VNet and subnet to deploy a virtual machine.
