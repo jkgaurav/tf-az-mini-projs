@@ -1,10 +1,10 @@
 ### **Step-by-Step Solution:**
 
-#### 1. **(main.tf)[https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-2/terraform-azure-vnet/main.tf]** – Defining the Virtual Network and Subnet
+#### 1. **[main.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-2/terraform-azure-vnet/main.tf)** – Defining the Virtual Network and Subnet
 
-#### 2. **(variables.tf)[https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-2/terraform-azure-vnet/variables.tf]** – Defining Input Variables
+#### 2. **[variables.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-2/terraform-azure-vnet/variables.tf)** – Defining Input Variables
 
-#### 3. **(outputs.tf)[https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-2/terraform-azure-vnet/outputs.tf]** – Defining Outputs
+#### 3. **[outputs.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-2/terraform-azure-vnet/outputs.tf)** – Defining Outputs
 
 ---
 
@@ -81,4 +81,4 @@ terraform destroy
 
 ---
 
-Let's move on to the next one!
+Let's move on to the [next one](https://github.com/jkgaurav/tf-az-mini-projs/tree/main/mini-pro-3)!
