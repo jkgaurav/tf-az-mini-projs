@@ -12,3 +12,10 @@ In this project, you'll learn how to deploy an Azure Web App using Terraform. Th
 2-3 hours
 
 ---
+
+### **Approach:**
+
+You will:
+1. Create an App Service Plan to define the hosting infrastructure.
+2. Deploy a Web App that runs on a specific runtime.
+3. Output the URL of the Web App for validation.
