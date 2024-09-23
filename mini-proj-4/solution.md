@@ -2,9 +2,9 @@
 
 #### **1. [main.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-4/terraform-azure-web-app/main.tf)** – Defining Azure Resources
 
-#### **2. variables.tf** – Defining Input Variables
+#### **2. [variables.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-4/terraform-azure-web-app/variables.tf)** – Defining Input Variables
 
-#### **3. outputs.tf** – Defining Outputs
+#### **3. [outputs.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-4/terraform-azure-web-app/outputs.tf)** – Defining Outputs
 
 ---
 
