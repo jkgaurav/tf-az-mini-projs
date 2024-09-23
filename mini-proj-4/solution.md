@@ -1,6 +1,6 @@
 ### **Step-by-Step Solution:**
 
-#### **1. main.tf** – Defining Azure Resources
+#### **1. [main.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-4/terraform-azure-web-app/main.tf)** – Defining Azure Resources
 
 #### **2. variables.tf** – Defining Input Variables
 
