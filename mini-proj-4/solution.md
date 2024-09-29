@@ -46,9 +46,9 @@
    web_app_url = "gktest-webapp-demo.azurewebsites.net"
    ```
 
-5. **Deploy a Basic Node.js Application from Ubuntu Server:**
+5. **[Deploy a Basic Node.js Application](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-4/nodedeploy.md):**
 
-   You can deploy a simple Node.js, Python, or .NET application using Azure CLI or Git. Here's an example for deploying a Node.js app:
+   You can deploy a simple Node.js, Python, or .NET application using Azure CLI or Git. Here's an example for [deploying a Node.js app](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-4/nodedeploy.md):
 
 ---
 
