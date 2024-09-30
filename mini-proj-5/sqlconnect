@@ -1,0 +1,77 @@
+To connect to an **Azure SQL Database** from an Ubuntu machine, follow these steps. We will cover using **sqlcmd**. You'll need the server name, database name, admin username, and password.
+
+### Prerequisites:
+1. **Azure SQL Database**: Ensure that the database is created and that the firewall allows your client IP address.
+2. **Ubuntu 18.04 or later**: Make sure Ubuntu is up to date.
+
+---
+
+## Method : Using **sqlcmd** (Command-line based)
+
+### Step 1: Install sqlcmd
+1. Install **curl** if you don’t already have it:
+   ```bash
+   sudo apt install curl
+   ```
+
+2. Download the **Microsoft SQL Server** repositories:
+   ```bash
+   curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+   curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list
+   ```
+
+3. Update your package lists:
+   ```bash
+   sudo apt update
+   ```
+
+4. Install the **mssql-tools** and **unixodbc-dev** packages:
+   ```bash
+   sudo apt install mssql-tools unixodbc-dev
+   ```
+
+5. Add the **sqlcmd** binary to your path for easier access:
+   ```bash
+   echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+   source ~/.bashrc
+   ```
+
+### Step 2: Connect to Azure SQL Database Using sqlcmd
+1. Use the following command to connect to your Azure SQL Database:
+   ```bash
+   $ sqlcmd -S sqlserver-gktest-demo.database.windows.net -U sqladmin -P P@ssword123! -d sqldatabase-demo
+   ```
+
+   **Explanation**:
+   - `-S` is for the server (e.g., `your-server-name.database.windows.net`).
+   - `-U` is for the username.
+   - `-P` is for the password.
+   - `-d` specifies the database you want to connect to.
+
+2. After running the command, you will be inside the SQL command prompt. To test the connection, run a simple SQL query like:
+   ```sql
+   1> SELECT name FROM sys.databases;
+   2> GO
+   name                                                                                                                            
+   --------------------------------------------------------------------------------------------------------------------------------
+   master                                                                                                                          
+   sqldatabase-demo                                                                                                                
+
+   (2 rows affected)
+   ```
+
+3. To exit `sqlcmd`, type:
+   ```bash
+   1> QUIT
+   ```
+
+---
+
+## Additional Notes:
+
+- **Firewall Settings**: Ensure that your Azure SQL Database firewall allows the IP address of your Ubuntu machine.
+   - Go to **Azure Portal > SQL Databases > Your Database > Set Server Firewall** and allow your client IP.
+
+- **Connection Timeout**: If you encounter timeout errors, verify that your firewall settings are correct and that the SQL server is online.
+
+These are the steps for **sqlcmd** (command-line based) approach.
