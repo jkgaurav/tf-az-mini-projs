@@ -70,4 +70,4 @@ terraform destroy
 
 ---
 
-Let's move on to next mini project!
+Let's move on to next [mini project](https://github.com/jkgaurav/tf-az-mini-projs/tree/main/mini-proj-5)!
