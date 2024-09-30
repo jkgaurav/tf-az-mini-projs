@@ -48,7 +48,7 @@
 
 5. **Connect to the SQL Database:**
 
-   You can connect to the database using a SQL client, like Azure Data Studio or `sqlcmd`, by providing the server name, database name, admin username, and password.
+   You can connect to the database using a SQL client, like Azure Data Studio or `[sqlcmd](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-5/sqlconnect)`, by providing the server name, database name, admin username, and password.
 
 ---
 
