@@ -55,18 +55,7 @@
 ### **Additional Steps:**
 - If you want to automate fetching your current public IP address, you can add a small script to dynamically insert the correct value for the `my_ip_address` variable.
   
-  Example using an external data source in Terraform:
-
-  ```hcl
-  data "http" "my_ip" {
-    url = "https://ipinfo.io/ip"
-  }
-
-  variable "my_ip_address" {
-    default = data.http.my_ip.body
-  }
-  ```
-
+  Example using an external [data source](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-5/automate-firewall.md) in Terraform:
 ---
 
 ### **Cleanup:**
