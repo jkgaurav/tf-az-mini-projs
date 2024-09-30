@@ -29,6 +29,19 @@ terraform init
 
 This command will install the `http` provider from the Terraform registry.
 
+If you want to keep the parts of your Terraform configuration separate, you can split it into multiple files based on the logical components of your infrastructure. Here's a recommended naming structure for separating the concerns:
+
+### 1. **Data Source File** (`data-sources.tf`)
+   - This file will hold the external data sources used to fetch dynamic information, such as the public IP address.
+   
+   Example (`data-sources.tf`):
+   ```hcl
+   # Fetch the public IP address
+   data "http" "my_ip" {
+     url = "https://ipinfo.io/ip"
+   }
+   ```
+
 #### Update Your `main.tf`
 
 In your **`main.tf`** (or wherever you're defining the firewall rule), update it as follows:
