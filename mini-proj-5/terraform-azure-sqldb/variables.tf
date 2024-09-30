@@ -38,6 +38,6 @@ variable "sql_database_name" {
 variable "my_ip_address" {
   description = "Your local IP address to be whitelisted by the SQL Server firewall"
   type        = string
-  default     = "20.235.129.86" # Replace with your actual IP or automate fetching it.
+  default     = "YOUR_IP_ADDRESS" # Replace with your actual IP or automate fetching it.
 }
 
