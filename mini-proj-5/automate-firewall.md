@@ -8,7 +8,7 @@
 
 ### Solution:
 
-#### Step 1: Update Your `main.tf`
+#### Step: Update Your `main.tf`
 
 You need to add the `http` provider to your `main.tf` file. Here's how you can modify it:
 
@@ -19,7 +19,7 @@ provider "http" {
 }
 ```
 
-#### Step 2: Run `terraform init`
+#### Step: Run `terraform init`
 
 After updating the `main.tf` file, run the following command to download and initialize the `http` provider:
 
@@ -31,7 +31,7 @@ This command will install the `http` provider from the Terraform registry.
 
 If you want to keep the parts of your Terraform configuration separate, you can split it into multiple files based on the logical components of your infrastructure. Here's a recommended naming structure for separating the concerns:
 
-### 1. **Data Source File** (`data-sources.tf`)
+### **Data Source File** (`data-sources.tf`)
    - This file will hold the external data sources used to fetch dynamic information, such as the public IP address.
    
    Example (`data-sources.tf`):
