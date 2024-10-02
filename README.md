@@ -13,3 +13,5 @@ This repository contains a collection of mini-projects that demonstrate how to u
 4. **[mini-proj-4: Automate Azure Web App Deployment Using Terraform](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-4/problem.md)**
 
 5. **[mini-proj-5: Deploy an Azure SQL Database with Terraform](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-5/problem.md)**
+
+6. **[mini-proj-6: Deploy an Azure Kubernetes Service (AKS) Cluster Using Terraform](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-6/problem.md)**
