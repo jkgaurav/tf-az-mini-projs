@@ -1,10 +1,10 @@
 ### **Step-by-Step Solution:**
 
-#### **1. [main.tf]()** – Defining Azure Resources
+#### **1. [main.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-6/terraform-azure-aks/main.tf)** – Defining Azure Resources
 
-#### **2. [variables.tf]()** – Defining Input Variables
+#### **2. [variables.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-6/terraform-azure-aks/variables.tf)** – Defining Input Variables
 
-#### **3. [outputs.tf]()** – Defining Outputs
+#### **3. [outputs.tf](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-6/terraform-azure-aks/outputs.tf)** – Defining Outputs
 
 ---
 
