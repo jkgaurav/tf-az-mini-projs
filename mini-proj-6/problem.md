@@ -13,3 +13,13 @@ In this project, you’ll deploy an Azure Kubernetes Service (AKS) cluster using
 4-5 hours
 
 ---
+
+### **Approach:**
+
+You will:
+1. Create a Virtual Network and Subnet for the AKS cluster.
+2. Deploy the AKS cluster with a system node pool.
+3. Configure kubectl to interact with the AKS cluster using Azure CLI.
+4. Output the necessary credentials to access and manage the Kubernetes cluster.
+
+---
