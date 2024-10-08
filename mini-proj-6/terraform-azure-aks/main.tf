@@ -45,11 +45,13 @@ resource "azurerm_kubernetes_cluster" "aks" {
     vnet_subnet_id = azurerm_subnet.subnet.id
   }
 
+  # Chcek FAQ Section for more details
   identity {
     type = "SystemAssigned"
   }
 
   # Enable RBAC for security
+  # Chcek FAQ Section for more details
   role_based_access_control_enabled = true # Defaults to true, set to false to disable RBAC
 
   network_profile {
