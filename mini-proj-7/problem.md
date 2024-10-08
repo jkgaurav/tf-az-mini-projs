@@ -13,3 +13,11 @@ In this project, you will deploy an Azure Application Gateway, which acts as a l
 4-5 hours
 
 ---
+
+### **Approach:**
+
+You will:
+1. Create a Virtual Network, Subnet, and a Virtual Machine as the backend server.
+2. Deploy an Application Gateway in the same network.
+3. Configure HTTP routing rules, a listener, a backend pool, and a health probe.
+4. Output the public IP address of the Application Gateway for testing.
