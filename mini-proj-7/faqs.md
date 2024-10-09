@@ -11,9 +11,9 @@ To include the error code in the **Q2** answer, here’s an updated version of t
 If you do not assign a dedicated subnet to the Application Gateway, deployment will fail, and you may encounter errors. For example, you might see the following error during deployment:
 
 ```
-│ Error: creating Application Gateway (Subscription: "4788db51-f5bb-442d-8cdd-a6debf476da9"
+│ Error: creating Application Gateway (Subscription: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 │ Resource Group Name: "rg-terraform-appgw-demo"
-│ Application Gateway Name: "appgw-demo"): performing CreateOrUpdate: unexpected status 400 (400 Bad Request) with error: ApplicationGatewaySubnetCannotHaveOtherResources: Subnet /subscriptions/4788db51-f5bb-442d-8cdd-a6debf476da9/resourceGroups/rg-terraform-appgw-demo/providers/Microsoft.Network/virtualNetworks/appgw-vnet/subnets/appgw-subnet cannot be used for application gateway /subscriptions/4788db51-f5bb-442d-8cdd-a6debf476da9/resourceGroups/rg-terraform-appgw-demo/providers/Microsoft.Network/applicationGateways/appgw-demo since it has other resources deployed. Subnet used for application gateway can only have other application gateways.
+│ Application Gateway Name: "appgw-demo"): performing CreateOrUpdate: unexpected status 400 (400 Bad Request) with error: ApplicationGatewaySubnetCannotHaveOtherResources: Subnet /subscriptions/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/resourceGroups/rg-terraform-appgw-demo/providers/Microsoft.Network/virtualNetworks/appgw-vnet/subnets/appgw-subnet cannot be used for application gateway /subscriptions/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX/resourceGroups/rg-terraform-appgw-demo/providers/Microsoft.Network/applicationGateways/appgw-demo since it has other resources deployed. Subnet used for application gateway can only have other application gateways.
 │
 │   with azurerm_application_gateway.appgw,
 │   on main.tf line 85, in resource "azurerm_application_gateway" "appgw":
