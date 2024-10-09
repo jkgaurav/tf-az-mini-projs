@@ -1,7 +1,5 @@
 ### **FAQ: Azure Application Gateway Configuration in Terraform**
 
-### **FAQ: Azure Application Gateway Requiring a Dedicated Subnet**
-
 #### **Subnet Configuration**
 
 **Q1: Why does the Azure Application Gateway require a dedicated subnet?**  
