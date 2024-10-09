@@ -1,6 +1,6 @@
 ### **FAQ: Azure Application Gateway Configuration in Terraform**
 
-#### **Subnet Configuration**
+#### **Dedicated Subnet Configuration**
 
 **Q1: Why does the Azure Application Gateway require a dedicated subnet?**  
 The Azure Application Gateway requires a **dedicated subnet** to isolate its network traffic from other resources. This ensures that the Application Gateway functions correctly by preventing interference from other Azure services that might reside in the same subnet. Each Application Gateway deployment must be assigned its own dedicated subnet to handle ingress traffic and perform routing efficiently.
