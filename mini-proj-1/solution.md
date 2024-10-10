@@ -14,9 +14,8 @@
 
    Initialize Terraform in the project directory. This downloads the Azure provider plugin and sets up your workspace.
    
-   # Check FAQ Section for more details
    ```bash
-   terraform init
+   [terraform init](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-1/faqs.md)
    ```
 
 3. **Plan the Deployment:**
