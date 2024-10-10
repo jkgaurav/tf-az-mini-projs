@@ -13,12 +13,13 @@
 1. **Initialize the Project:**
 
    Initialize Terraform in the project directory. This downloads the Azure provider plugin and sets up your workspace.
-
+   
+   # Check FAQ Section for more details
    ```bash
    terraform init
    ```
 
-2. **Plan the Deployment:**
+3. **Plan the Deployment:**
 
    Review the execution plan before applying it to ensure everything looks correct.
 
@@ -26,7 +27,7 @@
    terraform plan
    ```
 
-3. **Apply the Configuration:**
+4. **Apply the Configuration:**
 
    Apply the Terraform configuration to create the Azure resources.
 
@@ -36,7 +37,7 @@
 
    After entering `yes` when prompted, Terraform will create the resource group and storage account.
 
-4. **Verify the Output:**
+5. **Verify the Output:**
 
    The connection string is marked as sensitive in `outputs.tf` file, meaning Terraform has hidden it for security reasons.
 
