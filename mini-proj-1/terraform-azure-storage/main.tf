@@ -1,4 +1,5 @@
 # Provider configuration for Azure
+# Check FAQ for more details
 provider "azurerm" {
   features {}
 
