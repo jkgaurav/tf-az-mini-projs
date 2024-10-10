@@ -12,10 +12,10 @@
 
 1. **Initialize the Project:**
 
-   Initialize Terraform in the project directory. This downloads the Azure provider plugin and sets up your workspace.
+   [Initialize Terraform](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-1/faqs.md) in the project directory. This downloads the Azure provider plugin and sets up your workspace.
    
    ```bash
-   [terraform init](https://github.com/jkgaurav/tf-az-mini-projs/blob/main/mini-proj-1/faqs.md)
+   terraform init
    ```
 
 3. **Plan the Deployment:**
